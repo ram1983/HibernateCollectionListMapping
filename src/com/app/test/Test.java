@@ -22,6 +22,7 @@ public class Test {
 		emp.getStdData().add("D2");
 		emp.getStdData().add("D3");
 		ses.save(emp);
+		System.out.println("Hello");
 		tx.commit();
 		ses.close();
 	}
